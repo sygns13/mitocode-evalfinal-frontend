@@ -1,0 +1,6 @@
+export const ENDPOINT_LOGIN = '/login'
+export const ENDPOINT_PLATOS = '/platos'
+export const ENDPOINT_CLIENTES = '/clientes'
+export const ENDPOINT_MENU = '/menus'
+export const ENDPOINT_BOLETAS = '/facturas'
+export const ENDPOINT_BOLETAS_USUARIO = '/facturas/buscar'

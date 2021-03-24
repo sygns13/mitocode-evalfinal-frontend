@@ -1,0 +1,72 @@
+/*.tablePedidos {
+  &__head {
+    display: flex;
+    flex-direction: row;
+    &--item {
+      width: 120px;
+      height: 40px;
+    }
+  }
+  &__body {
+    display: flex;
+    flex-direction: column;
+    &--row {
+      display: flex;
+      flex-direction: row;
+    }
+    &--col {
+      width: 120px;
+      height: 40px;
+    }
+  }
+}
+
+.titleArea {
+  font-size: 22px;
+  font-weight: 500; 
+}
+
+.boxArea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 10px 0px
+}
+
+.detailBoleta {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.listPlatos {
+  &__head {
+    display: flex;
+    flex-direction: row;
+    &--item {
+      width: 120px;
+      height: 40px;
+    }
+  }
+  &__body {
+    display: flex;
+    flex-direction: column;
+    &--row {
+      display: flex;
+      flex-direction: row;
+    }
+    &--column {
+      width: 120px;
+      height: 40px;
+    }
+  }
+}
+
+.centerLoading {
+  margin: 0 auto;
+  height: calc(100vh - 200px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
