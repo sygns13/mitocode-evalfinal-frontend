@@ -1,4 +1,4 @@
-import { ENDPOINT_MATRICULAS, ENDPOINT_MATRICULAS_USUARIO, ENDPOINT_ESTUDIANTES, ENDPOINT_CURSOS } from '../../utils/endpoints'
+import { ENDPOINT_MATRICULAS, ENDPOINT_ESTUDIANTES, ENDPOINT_CURSOS } from '../../utils/endpoints'
 import baseApi from '../../api/baseApi'
 import * as TYPE from '../types/matriculas'
 
@@ -24,7 +24,7 @@ export const getListMatriculas = () => async (dispatch) => {
     dispatch({ type: TYPE.GET_MATRICULAS_FINISH })
   }
 }
-
+/*
 export const getListMatriculasByUser = (id) => async (dispatch) => {
   try {
     dispatch({ type: TYPE.GET_MATRICULAS_USER_START })
@@ -50,7 +50,7 @@ export const getListMatriculasByUser = (id) => async (dispatch) => {
   } finally {
     dispatch({ type: TYPE.GET_MATRICULAS_USER_FINISH })
   }
-}
+}*/
 
 export const clearListMatriculasByUser = () => (dispatch) => {
   dispatch({ type: TYPE.CLEAR_MATRICULAS_USER })

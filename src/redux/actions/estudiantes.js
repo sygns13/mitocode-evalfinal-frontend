@@ -65,12 +65,13 @@ export const addNewEstudiante = (dataForm, stateEstudiantes) => async (dispatch)
       data: newData
     })
   } catch (error) {
-    dispatch({
+     dispatch({
       type: TYPE.ADD_ESTUDIANTE_FAIL,
       error: {
         error: true,
         message: 'Error al agregar estudiante'
       }
+      
     })
   } finally {
     dispatch({ type: TYPE.ADD_ESTUDIANTE_FINISH })
