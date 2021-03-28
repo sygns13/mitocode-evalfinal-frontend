@@ -1,4 +1,4 @@
-# MediappFrontend
+# mitocode-evalfinal-frontend
 
 EVALUACION FINAL PARTE FRONT-END para la obtención del certificado de aprobación del curso 
 Spring Webflux & React.js - MITOCODE
